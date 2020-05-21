@@ -1,0 +1,32 @@
+body {
+	background-image: url('http://cdn30.us1.fansshare.com/image/backgroundgradient/gradient-background-2130916029.jpg');
+	background-size: auto 100vh;
+	font-family: Verdana;
+	height: 100vh;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color:white;
+	text-decoration:underline;
+}
+.menu {
+	background-color: pink;
+}
+.menu ul {
+	display: flex;
+	justify-content: space-around;
+}
+.menu li {
+	list-style: none;
+}
+.site-subtitle,
+.site-title {
+	color: white;
+	text-align: left;
+}
+.site-subtitle {
+	font-style: italic;
+}
